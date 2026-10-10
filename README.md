@@ -1,4 +1,4 @@
-# Relativistic-Gravity-In-3D-
+# Relativistic-Gravity-In-3D
 Interactive 3D N-body gravitational simulation and real-time spacetime grid deformation engine built in C++ using Modern OpenGL, GLFW, and GLM.
 
 An interactive, high-performance **3D gravitational simulation engine** built from scratch in C++ and Modern OpenGL (`Core Profile 3.3`). The application renders celestial bodies orbiting a central mass while dynamically deforming a 3D wireframe mesh in real-time to simulate general relativistic spacetime curvature (gravitational wells).
@@ -7,7 +7,16 @@ An interactive, high-performance **3D gravitational simulation engine** built fr
 ## PREVIEW:
 <img width="767" height="575" alt="Screenshot 2026-10-08 at 7 00 46 PM" src="https://github.com/user-attachments/assets/5117c4ef-5fa1-45f6-a445-48317ef3dbe2" />
 
-https://github.com/user-attachments/assets/c7ca6622-65d7-453d-8199-7a84bd1db32b
+<p align="center">
+  <video width="100%" controls autoplay loop muted>
+    <source src="https://github.com/user-attachments/assets/c7ca6622-65d7-453d-8199-7a84bd1db32b" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</p>
+
+<p align="center">
+  <img width="767" alt="Simulation Screenshot" src="https://github.com/user-attachments/assets/5117c4ef-5fa1-45f6-a445-48317ef3dbe2" />
+</p>
 (The above video is recorded from a different device hence the resolution of the actual project is higher)
 
 ## Key Features
@@ -60,13 +69,5 @@ Standard explicit Euler integration methods suffer from severe energy drift in o
 * **Extension Loading:** GLEW
 * **Linear Algebra:** OpenGL Mathematics (GLM)
 
----
 
-## Getting Started & Build Instructions
-
-### Prerequisites
-Make sure you have a C++ compiler (`g++`, `clang`, or MSVC) along with CMake and development headers for `GLFW`, `GLEW`, and `GLM`.
-
-#### macOS (Homebrew)
-```bash
-brew install glew glfw glm cmake
+Some of the code Implementations and Inspiration was taken from the following youtube video:https://www.youtube.com/watch?v=_YbGWoUaZg0

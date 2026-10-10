@@ -7,16 +7,10 @@ An interactive, high-performance **3D gravitational simulation engine** built fr
 ## PREVIEW:
 <img width="767" height="575" alt="Screenshot 2026-10-08 at 7 00 46 PM" src="https://github.com/user-attachments/assets/5117c4ef-5fa1-45f6-a445-48317ef3dbe2" />
 
-<p align="center">
-  <video width="100%" controls autoplay loop muted>
-    <source src="https://github.com/user-attachments/assets/c7ca6622-65d7-453d-8199-7a84bd1db32b" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-</p>
 
-<p align="center">
-  <img width="767" alt="Simulation Screenshot" src="https://github.com/user-attachments/assets/5117c4ef-5fa1-45f6-a445-48317ef3dbe2" />
-</p>
+https://github.com/user-attachments/assets/42dcc67b-9af8-46d8-928c-bff647128a95
+
+
 (The above video is recorded from a different device hence the resolution of the actual project is higher)
 
 ## Key Features

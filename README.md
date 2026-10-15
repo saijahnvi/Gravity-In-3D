@@ -1,7 +1,7 @@
 # Gravity-In-3D
 Interactive 3D N-body gravitational simulation and real-time spacetime grid deformation engine built in C++ using Modern OpenGL, GLFW, and GLM.
 
-An interactive, high-performance **3D gravitational simulation engine** built from scratch in C++ and Modern OpenGL (`Core Profile 3.3`). The application renders celestial bodies orbiting a central mass while dynamically deforming a 3D wireframe mesh in real-time to simulate general relativistic spacetime curvature (gravitational wells).
+An interactive, high-performance **3D gravitational simulation engine** built from scratch in C++ and Modern OpenGL (`Core Profile 3.3`). The application renders celestial bodies orbiting a central mass while dynamically deforming a 3D wireframe mesh in real-time to simulate gravitational wells.
 
 ---
 ## PREVIEW:
@@ -15,7 +15,7 @@ https://github.com/user-attachments/assets/42dcc67b-9af8-46d8-928c-bff647128a95
 
 ## Key Features
 
-* **Real-Time Spacetime Grid Deformation:** Procedurally generated ground grid vertices dynamically warp downwards based on the gravitational potential ($V(r) \propto -M / r$) of all active bodies in the system.
+* **Real-Time  Grid Deformation:** Procedurally generated ground grid vertices dynamically warp downwards based on the gravitational potential ($V(r) \propto -M / r$) of all active bodies in the system.
 * **Symplectic Integration & Sub-Stepping:** Employs a semi-implicit (symplectic) Euler integrator with fixed sub-stepping ($8\times$ per frame) to preserve phase-space volume and eliminate numerical energy drift over long orbital horizons.
 * **Keplerian Orbital Mechanics:** Precise initial conditions and velocity vectors ($v = \sqrt{GM/r}$) ensuring stable circular orbits for multi-body configurations.
 * **Interactive 3D Camera:** First-person free-roam camera implementation using GLM look-at matrices and mouse/keyboard callbacks (`WASD`, `Space`, `Shift`).

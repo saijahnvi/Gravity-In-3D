@@ -1,4 +1,4 @@
-# Relativistic-Gravity-In-3D
+# Gravity-In-3D
 Interactive 3D N-body gravitational simulation and real-time spacetime grid deformation engine built in C++ using Modern OpenGL, GLFW, and GLM.
 
 An interactive, high-performance **3D gravitational simulation engine** built from scratch in C++ and Modern OpenGL (`Core Profile 3.3`). The application renders celestial bodies orbiting a central mass while dynamically deforming a 3D wireframe mesh in real-time to simulate general relativistic spacetime curvature (gravitational wells).
